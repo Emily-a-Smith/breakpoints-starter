@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+	background: #b3ffd9;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+	body {
+    background: #99ffe6;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+	body {
+		background: #99bbff;
+	}
+}
